@@ -91,3 +91,5 @@ urlpatterns = [
     path('upload/', chatbot.upload_document, name='upload_document'),
     #path('chat/', chatbot.get_rag_response, name='get_rag_response'),
 ]
+
+print("Hello, World!")
